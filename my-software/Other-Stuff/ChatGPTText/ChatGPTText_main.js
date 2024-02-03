@@ -13,8 +13,11 @@ function splitWordInHalf(word) {
     return [word.slice(0, Math.floor(word.length/2)), word.slice(Math.floor(word.length/2)), word.length];
 }
 
-async function outputText() {
-    document.getElementById("Text_Gen_Area").innerText = "";
+async function outputText(clear = true) {
+    if(clear){    
+        document.getElementById("Text_Gen_Area").innerText = ""; 
+    }
+
     var text = document.getElementById("textInput").value;
     var words = text.split(' ');
 
@@ -31,3 +34,10 @@ async function outputText() {
     }
 }
 
+async function outputTextForever() {
+    console.log("Starting outputTextForever");
+    while (true) {
+        await outputText(false);
+        sleep(100);
+    }
+}
