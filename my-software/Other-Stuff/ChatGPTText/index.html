@@ -7,23 +7,54 @@
 </head>
 
 <body>
-    <script src="ChatGPTText_main.js"></script>
-    <p id="Button_Area">
-        <form>
-            <input type="text" id="textInput" name="textInput" value="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac mauris euismod.">
-        </form>
 
-        <button type="output" onclick="outputText()">Output</button>
-    </p>
+    <style>
+        .links_div{
+        height:100vh;
+        float:left;
+        border-right: 6px solid gray;
+        padding-right: 15px;
+        
+        }
+    </style>
 
-
-    <div>
-        <p id="Text_Gen_Area" style="text-align: center;"></p>
+    <div class="links_div">
+        <h2>Links</h2>
+        <hr>
+        <a href="../">Go back</a>
     </div>
 
-    <br>
-    <hr>
+    <style>
+        .main{
+        height:100vh;
+        float:left;
+        padding-left: 15px;
+        }
+    </style>
 
-    <a href="../">Go back</a>
+    <div class="main">
+
+        <h1>Chat GPT text</h1>
+        <p>A cool little program which outputs text in the style of chatGPT outputting text. Written in JS.</p>
+        <hr>
+
+
+        <script src="ChatGPTText_main.js"></script>
+
+        <p id="Button_Area">
+
+            <form>
+                <input type="text" id="textInput" name="textInput" value="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac mauris euismod.">
+            </form>
+
+            <button type="output" onclick="outputText()">Output</button>
+        </p>
+
+
+        <div style="position: fixed; float: left;">
+            <p id="Text_Gen_Area"></p>
+        </div>
+
+    </div>
 </body>
 </html>
