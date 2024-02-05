@@ -1,5 +1,6 @@
 .links_div{
     height:100vh;
+    width: auto;
     float:left;
     border-right: 6px solid gray;
     padding-right: 15px;
@@ -10,4 +11,5 @@
     width: 100vh;
     float:left;
     padding-left: 15px;
+    padding-right: 15px;
 }
