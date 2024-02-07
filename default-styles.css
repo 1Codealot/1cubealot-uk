@@ -1,6 +1,10 @@
+.html{
+    font-family: 'JetBrains Mono', monospace;
+    
+}
+
 .links_div{
     height:100vh;
-    width: auto;
     float:left;
     border-right: 6px solid gray;
     padding-right: 15px;
