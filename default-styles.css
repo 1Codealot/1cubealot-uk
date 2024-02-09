@@ -1,12 +1,15 @@
 .links_div{
-    height:100vh;
+    height:100vw;
+    width: 15%;
     float:left;
     border-right: 6px solid gray;
     padding-right: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    position: relative;
 }
 
 .main{
-    height: 100vh;
     width: 100vh;
     float:left;
     padding-left: 15px;
