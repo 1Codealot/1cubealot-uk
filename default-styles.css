@@ -7,7 +7,7 @@
   width: 15vw;
   border-right: 6px solid gray;
   padding-right: 15px;
-  padding-left: 5px;
+  padding-left: 7.5px;
 }
 
 .main{
@@ -27,4 +27,5 @@ body {
   padding: 0;
   margin: 0;
   font-family: JetBrainsMono;
+  font-size: 2.3em;
 }
