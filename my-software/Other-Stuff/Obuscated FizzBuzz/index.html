@@ -19,20 +19,16 @@
             <h1>Obfuscated Fizz Buzz</h1>
             <p>So the other day (08/03/2024) I tried to make the most obfuscated way of doing FizzBuzz in python.</p>
             <p>I think I did well</p>
-            <code>
+            <pre><code>
 # python
 
 def d(i,m):return lambda x:m if x%i==0else""
-
 def f(n,a):return str(n)if len((m:=(''.join([l(n)for l in a]))))==0else m
-
 def r(n):return f(n,[d(3,'\x46\x69\x7a\x7a'),d(5,'\x42\x75\x7a\x7a')])
-
 def p(l):print(r(l[0]));return None if len(l)==1else p(l[1:])
-
 p(range(1,101)) # Runs it
 
-            </code>
+            </code></pre>
             <p>No license, You can use it! <small>Why would you though??</small></p>
             <p>Explaination soon<sup>tm</sup>!</p>
         </div>
