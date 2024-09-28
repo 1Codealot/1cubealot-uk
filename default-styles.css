@@ -1,3 +1,7 @@
+* {
+  min-width: 0;
+}
+
 .wrapper {
   display: flex;
 }
